@@ -1,4 +1,61 @@
-/* .contact{
+.contact{
     display: flex;
-    justify-content: space-around;
-} */
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    
+    line-height: 150%;
+}
+
+.contact a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+
+
+
+body{
+    display: flex;
+}
+
+.left{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.right{
+    width: 70%;
+    margin-left: 1%;
+}
+
+.text_on_img{
+    font-family: "Apple Chancery, cursive";
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    color:white;
+    /* text-align: center; */
+    
+}
+
+.text_on_img h1{
+    font-size: 32px;
+}
+
+header img{
+    width: 100%;
+}
+
+.med{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: purple;
+    text-decoration: underline;
+}
+
